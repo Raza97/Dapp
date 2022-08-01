@@ -1,0 +1,290 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.login-popup{
+    z-index: 1000 !important;
+    width: 100% !important;
+    height: 100vh !important;
+    background: #000000b0;
+    backdrop-filter: blur(8px);
+}
+.login-popup-form{
+    background-color: #171928;
+    width: 500px;
+}
+
+.login-popup-form input{
+    background-color: #090D15;
+    color: white;
+    border-radius: 10px;
+}
+.wallet-options:hover{
+    cursor: pointer;
+}
+.wallet-options{
+    background-color: #ffffff14;
+    border-radius: 30px;
+    margin: 0 auto; 
+    padding: 30px;
+}
+.login-popup-form span{
+    color:#7C46F1;
+}
+
+.login-popup-form label{
+    color: #8997A9;
+}
+
+.login-popup-form p {
+color: #8997A9;
+}
+.login-popup-form-submit{
+    background-color: #7C46F1;
+    color: white;
+    border-radius: 10px;
+    
+}
+.login-popup-form-twitch{
+    background-color: #8C45F7;
+    color: white;
+    border-radius: 10px;
+    
+}
+.login-popup-form-steam{
+    background-color: #106697;
+    color: white;
+    border-radius: 10px;
+    
+}
+.login-popup-form-battlenet{
+    background-color: #0175F7;
+    color: white;
+    border-radius: 10px;
+    
+}
+.login-popup-form-fortnite{
+    background-color: #8716B7;
+    color: white;
+    border-radius: 10px;
+    
+}
+.profilePFP {
+    widtH: 130px;
+    border-radius: 50%;
+    border: 5px solid #141d26;
+    position: relative;
+   
+}
+
+hr{
+    border-top:1px solid #252C46;}
+.header-login-btn{
+    background-color: #561BC0;
+    color:white;
+}
+.top-nav-bar{
+    background-color: #171928;
+}
+.hero-landing-bg{
+    background-image:url(../../images/landing-hero.png);
+    background-position: center;
+}
+.sec-2-match-cards{
+    background-image: url(../../images/card-bg.png);
+    background-repeat: no-repeat;
+    background-color: #171928;
+}
+.home-sec-3{
+    background-image: url(../../images/ambassadors-bg.png);
+    background-color:#090d15;
+    background-repeat: no-repeat;
+    background-position: top;
+    
+}
+.home-sec-4{
+    background-image: url(../../images/leaderboard-bg.png);
+    background-color:#090d15;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.home-sec-5{
+    background-image: url(../../images/footer-bg.png);
+    background-color:#090d15;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.home-sec-5 hr{
+    border-top:1px solid #252C46;
+}
+.youtube-col{
+    background-image: url(../../images/red.png) !important;
+}
+.home-sec-2 h2 span {
+color: #8462FF;
+}
+.home-sec-5 h2 span {
+    color: #8462FF;
+    }
+    .home-sec-5 h2  {
+        color:white;
+        }
+.home-sec-2 h2 {
+    color: white;
+    }
+.home-sec-2 .subhead{
+color: #8997A9;
+font-size: 14px;
+
+    }
+.home-sec-2{
+    background: rgb(86,27,192);
+    background: radial-gradient(circle, rgba(86,27,192,1) 0%, rgba(9,13,21,1) 37%);
+}
+.home-sec-2-games{
+    width: 100px;
+    height: 40px;
+}
+.csgo:hover{
+    background-image:url(../../images/csgo-hover.png)
+}
+.cod:hover{
+    background-image:url(../../images/csgo-hover.png)
+}
+.fortnite:hover{
+    background-image:url(../../images/csgo-hover.png)
+}
+
+
+.home-leader-board{
+    background-color: #241843;
+
+}
+.home-sec-3{
+    color: white;
+}
+.home-sec-3 h2 span{
+    color: #8462FF;
+
+}
+
+
+.home-sec-4{
+    color: white;
+}
+.home-sec-4 h2 span{
+    color: #8462FF;
+
+}
+
+/* DASHBOARD CSS */
+.dsidebar-sec-1{
+    background-image: url(../../images/dash-profile-pg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body{
+    background-color:  #090d15;
+}
+.profile-view-sec-1{
+    background-image: url(../../images/Profile-view-dash-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #151725;
+}
+.Channel-view-sec-1{
+    background-image: url(../../images/channel-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #151725;
+}
+.match-card-one {
+        background: linear-gradient(93deg, #7E0272 0%, #514055 104.72%);
+}
+.match-card-two {
+    background: linear-gradient(290.69deg, #906198 -7.68%, #4B00AA 107.35%);
+}
+.match-card-three {
+    background:linear-gradient(287.06deg, #728EB0 -3.96%, #010C72 105.27%);;
+}
+.match-card-one .first-col{
+    background-image: url(../../images/fortnite-c.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+.match-card-two .second-col{
+    background-image: url(../../images/cod-c.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+.match-card-three .third-col{
+    background-image: url(../../images/cs-c.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+.last-match-banner-sec{
+    background-image: url(../../images/last-matches-banner.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.leaderboard-top-table{
+    background-image: url(../../images/leaderboard-table.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    background-color:#171928;
+}
+
+/* NEWS DASHBOARD*/
+
+.news-col-1{
+    background-image: url(../../images/news1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.news-col-2{
+    background-image: url(../../images/news2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.news-col-3{
+    background-image: url(../../images/news3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.news-col-4{
+    background-image: url(../../images/news4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.referral-top-table{
+    background-image: url(../../images/referral-bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    background-color:#090d15;
+
+}
+.staking-view-sec-1{
+    
+    background-image: url(../../images/staking-bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    background-position: top;
+    background-color:#090d15;
+}

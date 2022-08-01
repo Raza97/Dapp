@@ -1,0 +1,105 @@
+.hero-landing-bg{
+    background-image:url(../../images/landing-hero.png);
+    background-position: center;
+}
+.sec-2-match-cards{
+    background-image: url(../../images/card-bg.png);
+    background-repeat: no-repeat;
+    background-color: #171928;
+    background-size: cover;
+}
+.home-sec-3{
+    background-image: url(../../images/ambassadors-bg.png);
+    background-color:#090d15;
+    background-repeat: no-repeat;
+    background-position: top;
+    
+}
+.home-sec-4{
+    background-image: url(../../images/leaderboard-bg.png);
+    background-color:#090d15;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.home-sec-5{
+    background-image: url(../../images/footer-bg.png);
+    background-color:#090d15;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.home-sec-5 hr{
+    border-top:1px solid #252C46;
+}
+.youtube-col{
+    background-image: url(../../images/red.png) !important;
+}
+.home-sec-2 h2 span {
+color: #8462FF;
+}
+.home-sec-5 h2 span {
+    color: #8462FF;
+    }
+    .home-sec-5 h2  {
+        color:white;
+        }
+.home-sec-2 h2 {
+    color: white;
+    }
+.home-sec-2 .subhead{
+color: #8997A9;
+font-size: 14px;
+
+    }
+.home-sec-2{
+    background: rgb(86,27,192);
+    background: radial-gradient(circle, rgba(86,27,192,1) 0%, rgba(9,13,21,1) 37%);
+}
+.home-sec-2-games{
+    width: 100px;
+    height: 40px;
+}
+.csgo:hover{
+    background-image:url(../../images/csgo-hover.png)
+}
+.cod:hover{
+    background-image:url(../../images/csgo-hover.png)
+}
+.fortnite:hover{
+    background-image:url(../../images/csgo-hover.png)
+}
+
+
+.home-leader-board{
+    background-color: #241843;
+
+}
+.home-sec-3{
+    color: white;
+}
+.home-sec-3 h2 span{
+    color: #8462FF;
+
+}
+.header-login-btn{
+    background-color: #561BC0;
+    color:white;
+}
+
+.home-sec-4{
+    color: white;
+}
+.home-sec-4 h2 span{
+    color: #8462FF;
+
+}
+body{
+    background-color:  #090d15;
+}
+
+/* DASHBOARD CSS */
+.dsidebar-sec-1{
+    background-image: url(../../images/dash-profile-pg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
